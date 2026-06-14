@@ -1,4 +1,416 @@
--- 暴力区·终极混淆版 (卡密: sznb)
-local _a1b2c3d4e5f6g7h8=function(_i9j0k1l2m3n4o5p6)local _q7r8s9t0u1v2w3x4={}for _y5z6A7B8C9D0E1F2=1,#_i9j0k1l2m3n4o5p6 do _q7r8s9t0u1v2w3x4[_y5z6A7B8C9D0E1F2]=string.char(string.byte(_i9j0k1l2m3n4o5p6,_y5z6A7B8C9D0E1F2)-(577-576))end return table.concat(_q7r8s9t0u1v2w3x4)end
-local _G3H4I5J6K7L8M9N0=function(...)return...end
-local _O1P2Q3R4S5T6U7V8=game[_a1b2c3d4e5f6g7h8("HfuTfswjdf")]local _W9X0Y1Z2A3B4C5D6=_O1P2Q3R4S5T6U7V8(_O1P2Q3R4S5T6U7V8,_a1b2c3d4e5f6g7h8("Qmbzfst"))local _E7F8G9H0I1J2K3L4=_O1P2Q3R4S5T6U7V8(_O1P2Q3R4S5T6U7V8,_a1b2c3d4e5f6g7h8("SvoTfswjdf"))local _M5N6O7P8Q9R0S1T2=_O1P2Q3R4S5T6U7V8(_O1P2Q3R4S5T6U7V8,_a1b2c3d4e5f6g7h8("DpsfHvj"))local _U3V4W5X6Y7Z8A9B0=_O1P2Q3R4S5T6U7V8(_O1P2Q3R4S5T6U7V8,_a1b2c3d4e5f6g7h8("VtfsJoqvuTfswjdf"))local _C1D2E3F4G5H6I7J8=_O1P2Q3R4S5T6U7V8(_O1P2Q3R4S5T6U7V8,_a1b2c3d4e5f6g7h8("UxffoTfswjdf"))local _K9L0M1N2O3P4Q5R6=_O1P2Q3R4S5T6U7V8(_O1P2Q3R4S5T6U7V8,_a1b2c3d4e5f6g7h8("Mjhiujoh"))local _S7T8U9V0W1X2Y3Z4=_O1P2Q3R4S5T6U7V8(_O1P2Q3R4S5T6U7V8,_a1b2c3d4e5f6g7h8("WjsuvbmJoqvuNbobhfs"))local _A5B6C7D8E9F0G1H2=_W9X0Y1Z2A3B4C5D6[_a1b2c3d4e5f6g7h8("MpdbmQmbzfs")]local _I3J4K5L6M7N8O9P0={}local _Q1R2S3T4U5V6W7X8={}local _Y9Z0A1B2C3D4E5F6=true local _G7H8I9J0K1L2M3N4=false local _O5P6Q7R8S9T0U1V2=false local _W3X4Y5Z6A7B8C9D0=false local _E1F2G3H4I5J6K7L8=false local _M9N0O1P2Q3R4S5T6=false local _U7V8W9X0Y1Z2A3B4={}local _C5D6E7F8G9H0I1J2={}local _K3L4M5N6O7P8Q9R0=nil local _S1T2U3V4W5X6Y7Z8={}local _A9B0C1D2E3F4G5H6=function()local _I7J8K9L0M1N2O3P4=Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("TdsffoHvj"),_M5N6O7P8Q9R0S1T2)_I7J8K9L0M1N2O3P4[_a1b2c3d4e5f6g7h8("Obnf")]=_a1b2c3d4e5f6g7h8("YR!Bvui")_I7J8K9L0M1N2O3P4[_a1b2c3d4e5f6g7h8("SftfuPoTqbxo")]=false local _Q4R5S6T7U8V9W0X1=Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("Gsbnf"),_I7J8K9L0M1N2O3P4)_Q4R5S6T7U8V9W0X1[_a1b2c3d4e5f6g7h8("BodipsQpjou")]=Vector2.new(0.5,0.5)_Q4R5S6T7U8V9W0X1[_a1b2c3d4e5f6g7h8("CbdlhspvoeDpmps4")]=Color3.fromRGB(12,13,20)_Q4R5S6T7U8V9W0X1[_a1b2c3d4e5f6g7h8("CpsefsTj{fQjyfm")]=0 _Q4R5S6T7U8V9W0X1[_a1b2c3d4e5f6g7h8("Qptjujpo")]=UDim2.new(0.5,0,0.5,0)_Q4R5S6T7U8V9W0X1[_a1b2c3d4e5f6g7h8("Tj{f")]=UDim2.new(0,260,0,150)_Q4R5S6T7U8V9W0X1[_a1b2c3d4e5f6g7h8("Bdujwf")]=true _Q4R5S6T7U8V9W0X1[_a1b2c3d4e5f6g7h8("Esbhhbcmf")]=true Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("VJDpsofs"),_Q4R5S6T7U8V9W0X1)[_a1b2c3d4e5f6g7h8("DpsofsSbejvt")]=UDim.new(0,8)local _Y2Z3A4B5C6D7E8F9=Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("UfyuMbcfm"),_Q4R5S6T7U8V9W0X1)_Y2Z3A4B5C6D7E8F9[_a1b2c3d4e5f6g7h8("CbdlhspvoeDpmps4")]=Color3.fromRGB(16,17,25)_Y2Z3A4B5C6D7E8F9[_a1b2c3d4e5f6g7h8("CpsefsTj{fQjyfm")]=0 _Y2Z3A4B5C6D7E8F9[_a1b2c3d4e5f6g7h8("Tj{f")]=UDim2.new(1,0,0,32)_Y2Z3A4B5C6D7E8F9[_a1b2c3d4e5f6g7h8("Gpou")]=Enum[_a1b2c3d4e5f6g7h8("Gpou")][_a1b2c3d4e5f6g7h8("HpuibnCpme")]_Y2Z3A4B5C6D7E8F9[_a1b2c3d4e5f6g7h8("Ufyu")]=_a1b2c3d4e5f6g7h8("练゜爨 - 骞冩笂")_Y2Z3A4B5C6D7E8F9[_a1b2c3d4e5f6g7h8("UfyuDpmps4")]=Color3.new(1,1,1)_Y2Z3A4B5C6D7E8F9[_a1b2c3d4e5f6g7h8("UfyuTj{f")]=16 Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("VJDpsofs"),_Y2Z3A4B5C6D7E8F9)[_a1b2c3d4e5f6g7h8("DpsofsSbejvt")]=UDim.new(0,8)local _G0H1I2J3K4L5M6N7=Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("UfyuCpy"),_Q4R5S6T7U8V9W0X1)_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("CbdlhspvoeDpmps4")]=Color3.fromRGB(24,26,38)_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("CpsefsTj{fQjyfm")]=0 _G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("Qptjujpo")]=UDim2.new(0,20,0,50)_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("Tj{f")]=UDim2.new(1,-40,0,36)_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("Gpou")]=Enum[_a1b2c3d4e5f6g7h8("Gpou")][_a1b2c3d4e5f6g7h8("HpuibnCpme")]_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("QmbdfipmefsUfyu")]=_a1b2c3d4e5f6g7h8("閻撳秴鍨?")_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("UfyuDpmps4")]=Color3.new(1,1,1)_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("UfyuTj{f")]=14 _G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("Ufyu")]=""_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("QmbdfipmefsDpmps4")]=Color3.fromRGB(150,150,150)Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("VJDpsofs"),_G0H1I2J3K4L5M6N7)[_a1b2c3d4e5f6g7h8("DpsofsSbejvt")]=UDim.new(0,6)local _O8P9Q0R1S2T3U4V5=Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("UfyuCvuupo"),_Q4R5S6T7U8V9W0X1)_O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("CbdlhspvoeDpmps4")]=Color3.fromRGB(60,70,110)_O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("CpsefsTj{fQjyfm")]=0 _O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("Qptjujpo")]=UDim2.new(0,20,0,100)_O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("Tj{f")]=UDim2.new(1,-40,0,36)_O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("Gpou")]=Enum[_a1b2c3d4e5f6g7h8("Gpou")][_a1b2c3d4e5f6g7h8("HpuibnCpme")]_O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("Ufyu")]=_a1b2c3d4e5f6g7h8("骞冩笂鍘涚亸")_O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("UfyuDpmps4")]=Color3.new(1,1,1)_O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("UfyuTj{f")]=14 Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("VJDpsofs"),_O8P9Q0R1S2T3U4V5)[_a1b2c3d4e5f6g7h8("DpsofsSbejvt")]=UDim.new(0,6)local _W6X7Y8Z9A0B1C2D3=Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("UfyuMbcfm"),_Q4R5S6T7U8V9W0X1)_W6X7Y8Z9A0B1C2D3[_a1b2c3d4e5f6g7h8("CbdlhspvoeUsbotqbsfodz")]=1 _W6X7Y8Z9A0B1C2D3[_a1b2c3d4e5f6g7h8("Qptjujpo")]=UDim2.new(0,20,0,90)_W6X7Y8Z9A0B1C2D3[_a1b2c3d4e5f6g7h8("Tj{f")]=UDim2.new(1,-40,0,16)_W6X7Y8Z9A0B1C2D3[_a1b2c3d4e5f6g7h8("Gpou")]=Enum[_a1b2c3d4e5f6g7h8("Gpou")][_a1b2c3d4e5f6g7h8("HpuibnTfnjcpme")]_W6X7Y8Z9A0B1C2D3[_a1b2c3d4e5f6g7h8("Ufyu")]=""_W6X7Y8Z9A0B1C2D3[_a1b2c3d4e5f6g7h8("UfyuDpmps4")]=Color3.fromRGB(255,84,84)_W6X7Y8Z9A0B1C2D3[_a1b2c3d4e5f6g7h8("UfyuTj{f")]=12 local _E4F5G6H7I8J9K0L1=function()local _M2N3O4P5Q6R7S8T9=_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("Ufyu")]if _M2N3O4P5Q6R7S8T9==_a1b2c3d4e5f6g7h8("t{oc")then _I7J8K9L0M1N2O3P4[_a1b2c3d4e5f6g7h8("Eftuspy")](_I7J8K9L0M1N2O3P4)_U7V8W9X0Y1Z2A3B4[_a1b2c3d4e5f6g7h8("Bvuipsj{fe")]=true _S1T2U3V4W5X6Y7Z8()_A9B0C1D2E3F4G5H6()else _W6X7Y8Z9A0B1C2D3[_a1b2c3d4e5f6g7h8("Ufyu")]=_a1b2c3d4e5f6g7h8("鍘涚亸閸欙綁!")_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("Ufyu")]=""end end _O8P9Q0R1S2T3U4V5[_a1b2c3d4e5f6g7h8("NpvtfCvuupo2Dmjdl")]:Connect(_E4F5G6H7I8J9K0L1)_G0H1I2J3K4L5M6N7[_a1b2c3d4e5f6g7h8("GpdvtMptu")]:Connect(_E4F5G6H7I8J9K0L1)end _q()local _r=function()local _s=Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("TdsffoHvj"),_M5N6O7P8Q9R0S1T2)_s[_a1b2c3d4e5f6g7h8("Obnf")]=_a1b2c3d4e5f6g7h8("YR!Nbjo")_s[_a1b2c3d4e5f6g7h8("SftfuPoTqbxo")]=false _o=Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("Gsbnf"),_s)_o[_a1b2c3d4e5f6g7h8("BodipsQpjou")]=Vector2.new(0.5,0.5)_o[_a1b2c3d4e5f6g7h8("CbdlhspvoeDpmps4")]=Color3.fromRGB(12,13,20)_o[_a1b2c3d4e5f6g7h8("CbdlhspvoeUsbotqbsfodz")]=0.05 _o[_a1b2c3d4e5f6g7h8("CpsefsTj{fQjyfm")]=0 _o[_a1b2c3d4e5f6g7h8("Qptjujpo")]=UDim2.new(0.5,0,0.5,0)_o[_a1b2c3d4e5f6g7h8("Tj{f")]=UDim2.new(0,520,0,360)_o[_a1b2c3d4e5f6g7h8("Bdujwf")]=true _o[_a1b2c3d4e5f6g7h8("Esbhhbcmf")]=true _o[_a1b2c3d4e5f6g7h8("Wjtjcmf")]=false Instance[_a1b2c3d4e5f6g7h8("ofx")](_a1b2c3d4e5f6g7h8("VJDpsofs"),_o)[_a1b2c3d4e5f6g7h8("DpsofsSbejvt"
+-- 暴力区·最终修复版 (卡密: sznb)
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local CoreGui = game:GetService("CoreGui")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local Lighting = game:GetService("Lighting")
+local VirtualInputManager = game:GetService("VirtualInputManager")
+local LocalPlayer = Players.LocalPlayer
+
+local espCache = {}
+local genESPObjects = {}
+local running = true
+local fullbrightEnabled = false
+local noFogEnabled = false
+local noStunEnabled = false
+
+-- 直接用全局变量，不用 Toggles 表
+local espEnabled = false
+local genEspEnabled = false
+local antiFailGenEnabled = false
+local autoPerfectSkillEnabled = false
+local killerSpeedValue = 16
+
+-- ==================== 卡密验证 ====================
+do
+    local authGui = Instance.new("ScreenGui", CoreGui)
+    authGui.Name = "XQ_Auth"; authGui.ResetOnSpawn = false
+    local authFrame = Instance.new("Frame", authGui)
+    authFrame.AnchorPoint = Vector2.new(0.5,0.5); authFrame.BackgroundColor3 = Color3.fromRGB(12,13,20)
+    authFrame.BorderSizePixel = 0; authFrame.Position = UDim2.new(0.5,0,0.5,0)
+    authFrame.Size = UDim2.new(0,260,0,150); authFrame.Active = true; authFrame.Draggable = true
+    Instance.new("UICorner", authFrame).CornerRadius = UDim.new(0,8)
+
+    local at = Instance.new("TextLabel", authFrame)
+    at.BackgroundColor3 = Color3.fromRGB(16,17,25); at.BorderSizePixel = 0
+    at.Size = UDim2.new(1,0,0,32); at.Font = Enum.Font.GothamBold
+    at.Text = "暴力区 - 验证"; at.TextColor3 = Color3.new(1,1,1); at.TextSize = 16
+    Instance.new("UICorner", at).CornerRadius = UDim.new(0,8)
+
+    local ai = Instance.new("TextBox", authFrame)
+    ai.BackgroundColor3 = Color3.fromRGB(24,26,38); ai.BorderSizePixel = 0
+    ai.Position = UDim2.new(0,20,0,50); ai.Size = UDim2.new(1,-40,0,36)
+    ai.Font = Enum.Font.GothamBold; ai.PlaceholderText = "输入卡密"
+    ai.TextColor3 = Color3.new(1,1,1); ai.TextSize = 14; ai.Text = ""
+    ai.PlaceholderColor3 = Color3.fromRGB(150,150,150)
+    Instance.new("UICorner", ai).CornerRadius = UDim.new(0,6)
+
+    local ab = Instance.new("TextButton", authFrame)
+    ab.BackgroundColor3 = Color3.fromRGB(60,70,110); ab.BorderSizePixel = 0
+    ab.Position = UDim2.new(0,20,0,100); ab.Size = UDim2.new(1,-40,0,36)
+    ab.Font = Enum.Font.GothamBold; ab.Text = "验证卡密"
+    ab.TextColor3 = Color3.new(1,1,1); ab.TextSize = 14
+    Instance.new("UICorner", ab).CornerRadius = UDim.new(0,6)
+
+    local am = Instance.new("TextLabel", authFrame)
+    am.BackgroundTransparency = 1; am.Position = UDim2.new(0,20,0,90)
+    am.Size = UDim2.new(1,-40,0,16); am.Font = Enum.Font.GothamSemibold
+    am.Text = ""; am.TextColor3 = Color3.fromRGB(255,84,84); am.TextSize = 12
+
+    local function tryAuth()
+        if ai.Text == "sznb" then
+            authGui:Destroy(); createUI(); startLoops()
+        else
+            am.Text = "卡密错误！"; ai.Text = ""
+        end
+    end
+    ab.MouseButton1Click:Connect(tryAuth)
+    ai.FocusLost:Connect(tryAuth)
+end
+
+-- ==================== UI ====================
+local Main = nil
+local tabFramesLocal = {}
+
+function createUI()
+    for _, v in next, CoreGui:GetChildren() do
+        if v.Name == "XQ_Main" then v:Destroy() end
+    end
+
+    local screenGui = Instance.new("ScreenGui", CoreGui)
+    screenGui.Name = "XQ_Main"; screenGui.ResetOnSpawn = false
+
+    Main = Instance.new("Frame", screenGui)
+    Main.AnchorPoint = Vector2.new(0.5,0.5); Main.BackgroundColor3 = Color3.fromRGB(12,13,20)
+    Main.BackgroundTransparency = 0.05; Main.BorderSizePixel = 0
+    Main.Position = UDim2.new(0.5,0,0.5,0); Main.Size = UDim2.new(0,520,0,360)
+    Main.Active = true; Main.Draggable = true; Main.Visible = false
+    Instance.new("UICorner", Main).CornerRadius = UDim.new(0,8)
+
+    local TitleBar = Instance.new("Frame", Main)
+    TitleBar.BackgroundColor3 = Color3.fromRGB(16,17,25); TitleBar.BorderSizePixel = 0
+    TitleBar.Size = UDim2.new(1,0,0,34)
+    Instance.new("UICorner", TitleBar).CornerRadius = UDim.new(0,8)
+
+    local Title = Instance.new("TextLabel", TitleBar)
+    Title.BackgroundTransparency = 1; Title.Position = UDim2.new(0,14,0,0)
+    Title.Size = UDim2.new(0,200,0,34); Title.Font = Enum.Font.GothamBlack
+    Title.Text = "暴力区"; Title.TextColor3 = Color3.new(1,1,1); Title.TextSize = 18
+    task.spawn(function()local h=0; while Title.Parent do h=(h+0.06*task.wait(0.06))%1; Title.TextColor3=Color3.fromHSV(h,0.8,1)end end)
+
+    local TabBar = Instance.new("Frame", Main)
+    TabBar.BackgroundColor3 = Color3.fromRGB(16,17,25); TabBar.BorderSizePixel = 0
+    TabBar.Position = UDim2.new(0,0,0,34); TabBar.Size = UDim2.new(0,130,1,-34)
+    local TabList = Instance.new("UIListLayout", TabBar)
+    TabList.SortOrder = Enum.SortOrder.LayoutOrder; TabList.Padding = UDim.new(0,6)
+    TabList.HorizontalAlignment = Enum.HorizontalAlignment.Center
+
+    local ContentArea = Instance.new("Frame", Main)
+    ContentArea.BackgroundTransparency = 1; ContentArea.Position = UDim2.new(0,134,0,40)
+    ContentArea.Size = UDim2.new(0,380,0,314)
+
+    local tabNames = {"主要", "透视", "画质", "系统"}
+    local tabBtns = {}
+    local currentTab = nil
+
+    local function switchTab(idx)
+        if currentTab == idx then return end
+        if currentTab and tabFramesLocal[currentTab] then
+            tabFramesLocal[currentTab].Visible = false
+            tabBtns[currentTab].BackgroundColor3 = Color3.fromRGB(24,26,38)
+        end
+        currentTab = idx
+        if tabFramesLocal[idx] then
+            tabFramesLocal[idx].Visible = true
+            tabBtns[idx].BackgroundColor3 = Color3.fromRGB(60,70,110)
+        end
+    end
+
+    for i, name in ipairs(tabNames) do
+        local btn = Instance.new("TextButton", TabBar)
+        btn.Size = UDim2.new(0,115,0,30)
+        btn.BackgroundColor3 = i==1 and Color3.fromRGB(60,70,110) or Color3.fromRGB(24,26,38)
+        btn.BorderSizePixel = 0; btn.Text = name; btn.TextColor3 = Color3.new(1,1,1)
+        btn.TextSize = 13; btn.Font = Enum.Font.GothamSemibold; btn.AutoButtonColor = false
+        Instance.new("UICorner", btn).CornerRadius = UDim.new(0,6)
+
+        local frame = Instance.new("ScrollingFrame", ContentArea)
+        frame.BackgroundTransparency = 1; frame.BorderSizePixel = 0; frame.Size = UDim2.new(1,0,1,0)
+        frame.ScrollBarThickness = 3; frame.Visible = i==1; frame.CanvasSize = UDim2.new(0,0,0,0)
+        local layout = Instance.new("UIListLayout", frame)
+        layout.SortOrder = Enum.SortOrder.LayoutOrder; layout.Padding = UDim.new(0,6)
+        layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+            frame.CanvasSize = UDim2.new(0,0,0, layout.AbsoluteContentSize.Y+10)
+        end)
+
+        tabBtns[i] = btn; tabFramesLocal[i] = frame
+        local idx = i; btn.MouseButton1Click:Connect(function()switchTab(idx)end)
+        if i==1 then currentTab = 1 end
+    end
+
+    -- 开关（直接改全局变量）
+    local function addToggle(parent, text, default, callback)
+        local value = default or false
+        callback = callback or function()end
+        local tf = Instance.new("Frame", parent)
+        tf.BackgroundColor3 = Color3.fromRGB(24,26,38); tf.BackgroundTransparency = 0.3
+        tf.BorderSizePixel = 0; tf.Size = UDim2.new(1,-10,0,40)
+        Instance.new("UICorner", tf).CornerRadius = UDim.new(0,6)
+        local lb = Instance.new("TextLabel", tf)
+        lb.BackgroundTransparency = 1; lb.Position = UDim2.new(0,12,0,0); lb.Size = UDim2.new(0,260,0,40)
+        lb.Font = Enum.Font.GothamSemibold; lb.Text = text; lb.TextColor3 = Color3.fromRGB(220,220,240); lb.TextSize = 14
+        local sb = Instance.new("Frame", tf)
+        sb.BackgroundColor3 = Color3.fromRGB(30,32,45); sb.BorderSizePixel = 0
+        sb.Position = UDim2.new(0.88,0,0.25,0); sb.Size = UDim2.new(0,38,0,20)
+        Instance.new("UICorner", sb).CornerRadius = UDim.new(0,10)
+        local kn = Instance.new("Frame", sb)
+        kn.BackgroundColor3 = value and Color3.fromRGB(96,205,255) or Color3.fromRGB(100,100,120)
+        kn.BorderSizePixel = 0; kn.Size = UDim2.new(0,20,0,20)
+        kn.Position = value and UDim2.new(0,18,0,0) or UDim2.new(0,0,0,0)
+        Instance.new("UICorner", kn).CornerRadius = UDim.new(0,10)
+        local bt = Instance.new("TextButton", tf)
+        bt.BackgroundTransparency = 1; bt.BorderSizePixel = 0; bt.Size = UDim2.new(1,0,1,0); bt.Text = ""
+        bt.MouseButton1Click:Connect(function()
+            value = not value
+            kn.BackgroundColor3 = value and Color3.fromRGB(96,205,255) or Color3.fromRGB(100,100,120)
+            TweenService:Create(kn, TweenInfo.new(0.15),{Position = value and UDim2.new(0,18,0,0) or UDim2.new(0,0,0,0)}):Play()
+            callback(value)
+        end)
+        return function() return value end
+    end
+
+    -- 滑条（直接改全局变量）
+    local function addSlider(parent, text, default, min, max, callback)
+        local value = default or min
+        callback = callback or function()end; min = min or 1; max = max or 100
+        local sf = Instance.new("Frame", parent)
+        sf.BackgroundColor3 = Color3.fromRGB(24,26,38); sf.BackgroundTransparency = 0.3
+        sf.BorderSizePixel = 0; sf.Size = UDim2.new(1,-10,0,52)
+        Instance.new("UICorner", sf).CornerRadius = UDim.new(0,6)
+        local lb = Instance.new("TextLabel", sf)
+        lb.BackgroundTransparency = 1; lb.Position = UDim2.new(0,12,0,4); lb.Size = UDim2.new(0,180,0,20)
+        lb.Font = Enum.Font.GothamSemibold; lb.Text = text; lb.TextColor3 = Color3.fromRGB(220,220,240); lb.TextSize = 14
+        local vl = Instance.new("TextLabel", sf)
+        vl.BackgroundTransparency = 1; vl.Position = UDim2.new(0.83,0,0,4); vl.Size = UDim2.new(0,50,0,20)
+        vl.Font = Enum.Font.GothamBold; vl.Text = tostring(default); vl.TextColor3 = Color3.fromRGB(96,205,255); vl.TextSize = 14
+        vl.TextXAlignment = Enum.TextXAlignment.Right
+        local bb = Instance.new("Frame", sf)
+        bb.BackgroundColor3 = Color3.fromRGB(30,32,45); bb.BorderSizePixel = 0
+        bb.Position = UDim2.new(0,12,0,30); bb.Size = UDim2.new(1,-70,0,8)
+        Instance.new("UICorner", bb).CornerRadius = UDim.new(0,4)
+        local bf = Instance.new("Frame", bb)
+        bf.BackgroundColor3 = Color3.fromRGB(96,205,255); bf.BorderSizePixel = 0
+        bf.Size = UDim2.new((default-min)/(max-min),0,1,0)
+        Instance.new("UICorner", bf).CornerRadius = UDim.new(0,4)
+        local db = Instance.new("TextButton", bb)
+        db.Size = UDim2.new(1,0,1,0); db.BackgroundTransparency = 1; db.Text = ""; db.BorderSizePixel = 0; db.AutoButtonColor = false
+        local function uv(input)
+            local p = math.clamp((input.Position.X-bb.AbsolutePosition.X)/bb.AbsoluteSize.X,0,1)
+            value = math.floor(min+(max-min)*p)
+            bf.Size = UDim2.new(p,0,1,0); vl.Text = tostring(value); callback(value)
+        end
+        db.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                uv(input); local mc,ec
+                mc = UserInputService.InputChanged:Connect(function(c)if c.UserInputType == Enum.UserInputType.MouseMovement or c.UserInputType == Enum.UserInputType.Touch then uv(c)end end)
+                ec = UserInputService.InputEnded:Connect(function(e)if e.UserInputType == Enum.UserInputType.MouseButton1 or e.UserInputType == Enum.UserInputType.Touch then mc:Disconnect()ec:Disconnect()end end)
+            end
+        end)
+        return function() return value end
+    end
+
+    -- 悬浮球
+    local ToggleBtn = Instance.new("TextButton", screenGui)
+    ToggleBtn.BackgroundColor3 = Color3.fromRGB(20,22,40); ToggleBtn.BackgroundTransparency = 0.3
+    ToggleBtn.BorderSizePixel = 0; ToggleBtn.Position = UDim2.new(0.015,0,0.75,0)
+    ToggleBtn.Size = UDim2.new(0,48,0,48); ToggleBtn.Text = "sz"
+    ToggleBtn.TextColor3 = Color3.new(1,1,1); ToggleBtn.TextSize = 26
+    ToggleBtn.Font = Enum.Font.GothamBold; ToggleBtn.Active = true; ToggleBtn.Draggable = true; ToggleBtn.ZIndex = 10
+    Instance.new("UICorner", ToggleBtn).CornerRadius = UDim.new(1,0)
+    local ts = Instance.new("UIStroke", ToggleBtn)
+    ts.Thickness = 1; ts.Color = Color3.fromRGB(96,205,255); ts.Transparency = 0.3
+    task.spawn(function()local h=0; while ToggleBtn.Parent do h=(h+0.04*task.wait(0.04))%1; ts.Color=Color3.fromHSV(h,0.8,1)end end)
+    ToggleBtn.MouseButton1Click:Connect(function()Main.Visible = not Main.Visible end)
+
+    -- ==================== 功能控件（直接绑全局变量） ====================
+    addToggle(tabFramesLocal[1], "Anti-Fail 修机", false, function(s) antiFailGenEnabled = s end)
+    addToggle(tabFramesLocal[1], "自动完美校准", false, function(s) autoPerfectSkillEnabled = s end)
+    addToggle(tabFramesLocal[1], "无眩晕", false, function(s) noStunEnabled = s end)
+    addSlider(tabFramesLocal[1], "移动速度", 16, 1, 50, function(v) killerSpeedValue = v end)
+
+    addToggle(tabFramesLocal[2], "玩家 ESP", false, function(s)
+        espEnabled = s
+        if s then
+            for _, d in pairs(espCache) do pcall(function()d.Highlight:Destroy()end)end
+            table.clear(espCache); initAllESP()
+        end
+    end)
+    addToggle(tabFramesLocal[2], "发电机 ESP", false, function(s) genEspEnabled = s end)
+
+    addToggle(tabFramesLocal[3], "超高亮画质", false, function(s) fullbrightEnabled = s; if s then applyFullbright()end end)
+    addToggle(tabFramesLocal[3], "去除雾气", false, function(s) noFogEnabled = s; if s then removeFog()end end)
+
+    addToggle(tabFramesLocal[4], "卸载脚本", false, function(s)
+        if s then running = false
+            for _, d in pairs(espCache)do pcall(function()d.Highlight:Destroy()end)end
+            for _, d in pairs(genESPObjects)do pcall(function()d.Highlight:Destroy()end)end
+            table.clear(espCache); table.clear(genESPObjects)
+            pcall(function()CoreGui:FindFirstChild("XQ_Main"):Destroy()end)
+        end
+    end)
+end
+
+-- ==================== 功能模块 ====================
+local function getPlayerColor(p)
+    if p.Team and p.Team.TeamColor then return p.Team.TeamColor.Color end
+    return Color3.new(1,1,1)
+end
+
+local function createESP(p)
+    if espCache[p]then return end
+    local hl = Instance.new("Highlight"); hl.Name = "ESP"; hl.Parent = CoreGui
+    hl.FillTransparency = 0.5; hl.OutlineTransparency = 0.3; hl.Enabled = false
+    espCache[p] = {Highlight = hl}
+end
+
+local function updateESP()
+    for p, d in pairs(espCache)do
+        local c = p.Character
+        if not c or not p.Parent then
+            pcall(function()d.Highlight:Destroy()end); espCache[p] = nil
+        elseif not espEnabled then
+            d.Highlight.Enabled = false
+        else
+            local r = c:FindFirstChild("HumanoidRootPart")
+            if r then
+                local color = getPlayerColor(p)
+                d.Highlight.Adornee = c; d.Highlight.FillColor = color
+                d.Highlight.OutlineColor = color; d.Highlight.Enabled = true
+            end
+        end
+    end
+end
+
+local function initAllESP()
+    for _, p in ipairs(Players:GetPlayers())do
+        if p ~= LocalPlayer and p.Character then createESP(p)end
+    end
+end
+initAllESP()
+Players.PlayerAdded:Connect(function(p)if p ~= LocalPlayer then p.CharacterAdded:Connect(function()task.wait(0.3)createESP(p)end)end end)
+Players.PlayerRemoving:Connect(function(p)if espCache[p]then pcall(function()espCache[p].Highlight:Destroy()end); espCache[p] = nil end end)
+
+-- 发电机
+local function findGenerators()
+    local g = {}; local kw = {"generator","gen","发电机","修机","repair"}
+    for _, o in ipairs(workspace:GetDescendants())do if o:IsA("BasePart")then local n = o.Name:lower()
+        for _, k in ipairs(kw)do if n:find(k)then table.insert(g,o)break end end end end
+    return g
+end
+
+local function createGenESP(gen)
+    if genESPObjects[gen]then return end
+    local hl = Instance.new("Highlight"); hl.Name = "G"; hl.Parent = gen
+    hl.FillColor = Color3.fromRGB(255,200,50); hl.OutlineColor = Color3.fromRGB(255,200,50)
+    hl.FillTransparency = 0.5; hl.OutlineTransparency = 0.3; hl.Enabled = true
+    genESPObjects[gen] = {Highlight = hl}
+end
+
+local function updateGenESP()
+    local gens = findGenerators()
+    for gen, data in pairs(genESPObjects)do
+        if not gen or not gen.Parent then pcall(function()data.Highlight:Destroy()end); genESPObjects[gen] = nil end
+    end
+    for _, gen in ipairs(gens)do
+        if not genESPObjects[gen]then createGenESP(gen)end
+        if genESPObjects[gen]then genESPObjects[gen].Highlight.Enabled = genEspEnabled end
+    end
+    if not genEspEnabled then
+        for _, data in pairs(genESPObjects)do data.Highlight.Enabled = false end
+    end
+end
+
+-- 自动校准
+local function setupAutoPerfectSkill()
+    task.spawn(function()
+        while running and autoPerfectSkillEnabled do
+            pcall(function()
+                for _, container in ipairs({LocalPlayer:FindFirstChild("PlayerGui"), CoreGui})do
+                    if container then
+                        for _, gui in ipairs(container:GetDescendants())do
+                            if gui.Visible and (gui:IsA("ImageButton") or gui:IsA("TextButton"))then
+                                local name = gui.Name:lower()
+                                if name:find("interact")or name:find("action")or name:find("button")or
+                                   name:find("mobile")or name:find("touch")or name:find("tap")or
+                                   name:find("use")or name:find("proximity")then
+                                    pcall(function()gui:FireClick()end)
+                                end
+                            end
+                        end
+                    end
+                end
+                local char = LocalPlayer.Character
+                if char then
+                    local root = char:FindFirstChild("HumanoidRootPart")
+                    if root then
+                        for _, obj in ipairs(workspace:GetDescendants())do
+                            if obj:IsA("ProximityPrompt")and obj.Enabled then
+                                local parent = obj.Parent
+                                if parent and parent:IsA("BasePart")then
+                                    local dist = (root.Position-parent.Position).Magnitude
+                                    if dist < 20 then
+                                        pcall(function()obj:InputHoldBegin(); task.wait(0.1); obj:InputHoldEnd()end)
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end)
+            task.wait(0.05)
+        end
+    end)
+end
+setupAutoPerfectSkill()
+
+function applyFullbright()
+    pcall(function()
+        Lighting.Brightness = 3; Lighting.ClockTime = 14; Lighting.FogEnd = 99999
+        Lighting.GlobalShadows = false; Lighting.OutdoorAmbient = Color3.fromRGB(255,255,255)
+        Lighting.Ambient = Color3.fromRGB(180,180,180)
+        Lighting.EnvironmentDiffuseScale = 0; Lighting.EnvironmentSpecularScale = 0
+    end)
+end
+
+function removeFog()
+    pcall(function()
+        for _, c in ipairs(Lighting:GetChildren())do
+            if c:IsA("Atmosphere")or c:IsA("BloomEffect")or c:IsA("BlurEffect")or
+               c:IsA("DepthOfFieldEffect")or c:IsA("SunRaysEffect")then c:Destroy()end
+        end
+    end)
+end
+
+local function setWalkSpeed(speed)
+    local c = LocalPlayer.Character
+    if c then local h = c:FindFirstChildOfClass("Humanoid")if h then h.WalkSpeed = speed end end
+end
+LocalPlayer.CharacterAdded:Connect(function(c)task.wait(0.3)setWalkSpeed(killerSpeedValue)end)
+
+-- ==================== 主循环 ====================
+function startLoops()
+    task.spawn(function()
+        while running do
+            pcall(function()
+                if noStunEnabled then setWalkSpeed(killerSpeedValue) end
+                setWalkSpeed(killerSpeedValue)
+            end)
+            RunService.RenderStepped:Wait()
+        end
+    end)
+    task.spawn(function()while running and task.wait(1)do if fullbrightEnabled then applyFullbright()end; if noFogEnabled then removeFog()end end end)
+    task.spawn(function()while running and RunService.RenderStepped:Wait()do pcall(updateESP)end end)
+    task.spawn(function()while running and task.wait(2)do pcall(updateGenESP)end end)
+end
