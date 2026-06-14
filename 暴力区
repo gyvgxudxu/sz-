@@ -2,7 +2,161 @@
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
+loca-- 暴力区·最终修复版 (卡密: sznb)
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
 local CoreGui = game:GetService("CoreGui")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local Lighting = game:GetService("Lighting")
+local VirtualInputManager = game:GetService("VirtualInputManager")
+local LocalPlayer = Players.LocalPlayer
+
+local espCache = {}
+local genESPObjects = {}
+local running = true
+local fullbrightEnabled = false
+local noFogEnabled = false
+local noStunEnabled = false
+
+-- 直接用全局变量，不用 Toggles 表
+local espEnabled = false
+local genEspEnabled = false
+local antiFailGenEnabled = false
+local autoPerfectSkillEnabled = false
+local killerSpeedValue = 16
+
+-- ==================== 卡密验证 ====================
+do
+    local authGui = Instance.new("ScreenGui", CoreGui)
+    authGui.Name = "XQ_Auth"; authGui.ResetOnSpawn = false
+    local authFrame = Instance.new("Frame", authGui)
+    authFrame.AnchorPoint = Vector2.new(0.5,0.5); authFrame.BackgroundColor3 = Color3.fromRGB(12,13,20)
+    authFrame.BorderSizePixel = 0; authFrame.Position = UDim2.new(0.5,0,0.5,0)
+    authFrame.Size = UDim2.new(0,260,0,150); authFrame.Active = true; authFrame.Draggable = true
+    Instance.new("UICorner", authFrame).CornerRadius = UDim.new(0,8)
+
+    local at = Instance.new("TextLabel", authFrame)
+    at.BackgroundColor3 = Color3.fromRGB(16,17,25); at.BorderSizePixel = 0
+    at.Size = UDim2.new(1,0,0,32); at.Font = Enum.Font.GothamBold
+    at.Text = "暴力区 - 验证"; at.TextColor3 = Color3.new(1,1,1); at.TextSize = 16
+    Instance.new("UICorner", at).CornerRadius = UDim.new(0,8)
+
+    local ai = Instance.new("TextBox", authFrame)
+    ai.BackgroundColor3 = Color3.fromRGB(24,26,38); ai.BorderSizePixel = 0
+    ai.Position = UDim2.new(0,20,0,50); ai.Size = UDim2.new(1,-40,0,36)
+    ai.Font = Enum.Font.GothamBold; ai.PlaceholderText = "输入卡密"
+    ai.TextColor3 = Color3.new(1,1,1); ai.TextSize = 14; ai.Text = ""
+    ai.PlaceholderColor3 = Color3.fromRGB(150,150,150)
+    Instance.new("UICorner", ai).CornerRadius = UDim.new(0,6)
+
+    local ab = Instance.new("TextButton", authFrame)
+    ab.BackgroundColor3 = Color3.fromRGB(60,70,110); ab.BorderSizePixel = 0
+    ab.Position = UDim2.new(0,20,0,100); ab.Size = UDim2.new(1,-40,0,36)
+    ab.Font = Enum.Font.GothamBold; ab.Text = "验证卡密"
+    ab.TextColor3 = Color3.new(1,1,1); ab.TextSize = 14
+    Instance.new("UICorner", ab).CornerRadius = UDim.new(0,6)
+
+    local am = Instance.new("TextLabel", authFrame)
+    am.BackgroundTransparency = 1; am.Position = UDim2.new(0,20,0,90)
+    am.Size = UDim2.new(1,-40,0,16); am.Font = Enum.Font.GothamSemibold
+    am.Text = ""; am.TextColor3 = Color3.fromRGB(255,84,84); am.TextSize = 12
+
+    local function tryAuth()
+        if ai.Text == "sznb" then
+            authGui:Destroy(); createUI(); startLoops()
+        else
+            am.Text = "卡密错误！"; ai.Text = ""
+        end
+    end
+    ab.MouseButton1Click:Connect(tryAuth)
+    ai.FocusLost:Connect(tryAuth)
+end
+
+-- ==================== UI ====================
+local Main = nil
+local tabFramesLocal = {}
+
+function createUI()
+    for _, v in next, CoreGui:GetChildren() do
+        if v.Name == "XQ_Main" then v:Destroy() end
+    end
+
+    local screenGui = Instance.new("ScreenGui", CoreGui)
+    screenGui.Name = "XQ_Main"; screenGui.ResetOnSpawn = false
+
+    Main = Instance.new("Frame", screenGui)
+    Main.AnchorPoint = Vector2.new(0.5,0.5); Main.BackgroundColor3 = Color3.fromRGB(12,13,20)
+    Main.BackgroundTransparency = 0.05; Main.BorderSizePixel = 0
+    Main.Position = UDim2.new(0.5,0,0.5,0); Main.Size = UDim2.new(0,520,0,360)
+    Main.Active = true; Main.Draggable = true; Main.Visible = false
+    Instance.new("UICorner", Main).CornerRadius = UDim.new(0,8)
+
+    local TitleBar = Instance.new("Frame", Main)
+    TitleBar.BackgroundColor3 = Color3.fromRGB(16,17,25); TitleBar.BorderSizePixel = 0
+    TitleBar.Size = UDim2.new(1,0,0,34)
+    Instance.new("UICorner", TitleBar).CornerRadius = UDim.new(0,8)
+
+    local Title = Instance.new("TextLabel", TitleBar)
+    Title.BackgroundTransparency = 1; Title.Position = UDim2.new(0,14,0,0)
+    Title.Size = UDim2.new(0,200,0,34); Title.Font = Enum.Font.GothamBlack
+    Title.Text = "暴力区"; Title.TextColor3 = Color3.new(1,1,1); Title.TextSize = 18
+    task.spawn(function()local h=0; while Title.Parent do h=(h+0.06*task.wait(0.06))%1; Title.TextColor3=Color3.fromHSV(h,0.8,1)end end)
+
+    local TabBar = Instance.new("Frame", Main)
+    TabBar.BackgroundColor3 = Color3.fromRGB(16,17,25); TabBar.BorderSizePixel = 0
+    TabBar.Position = UDim2.new(0,0,0,34); TabBar.Size = UDim2.new(0,130,1,-34)
+    local TabList = Instance.new("UIListLayout", TabBar)
+    TabList.SortOrder = Enum.SortOrder.LayoutOrder; TabList.Padding = UDim.new(0,6)
+    TabList.HorizontalAlignment = Enum.HorizontalAlignment.Center
+
+    local ContentArea = Instance.new("Frame", Main)
+    ContentArea.BackgroundTransparency = 1; ContentArea.Position = UDim2.new(0,134,0,40)
+    ContentArea.Size = UDim2.new(0,380,0,314)
+
+    local tabNames = {"主要", "透视", "画质", "系统"}
+    local tabBtns = {}
+    local currentTab = nil
+
+    local function switchTab(idx)
+        if currentTab == idx then return end
+        if currentTab and tabFramesLocal[currentTab] then
+            tabFramesLocal[currentTab].Visible = false
+            tabBtns[currentTab].BackgroundColor3 = Color3.fromRGB(24,26,38)
+        end
+        currentTab = idx
+        if tabFramesLocal[idx] then
+            tabFramesLocal[idx].Visible = true
+            tabBtns[idx].BackgroundColor3 = Color3.fromRGB(60,70,110)
+        end
+    end
+
+    for i, name in ipairs(tabNames) do
+        local btn = Instance.new("TextButton", TabBar)
+        btn.Size = UDim2.new(0,115,0,30)
+        btn.BackgroundColor3 = i==1 and Color3.fromRGB(60,70,110) or Color3.fromRGB(24,26,38)
+        btn.BorderSizePixel = 0; btn.Text = name; btn.TextColor3 = Color3.new(1,1,1)
+        btn.TextSize = 13; btn.Font = Enum.Font.GothamSemibold; btn.AutoButtonColor = false
+        Instance.new("UICorner", btn).CornerRadius = UDim.new(0,6)
+
+        local frame = Instance.new("ScrollingFrame", ContentArea)
+        frame.BackgroundTransparency = 1; frame.BorderSizePixel = 0; frame.Size = UDim2.new(1,0,1,0)
+        frame.ScrollBarThickness = 3; frame.Visible = i==1; frame.CanvasSize = UDim2.new(0,0,0,0)
+        local layout = Instance.new("UIListLayout", frame)
+        layout.SortOrder = Enum.SortOrder.LayoutOrder; layout.Padding = UDim.new(0,6)
+        layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+            frame.CanvasSize = UDim2.new(0,0,0, layout.AbsoluteContentSize.Y+10)
+        end)
+
+        tabBtns[i] = btn; tabFramesLocal[i] = frame
+        local idx = i; btn.MouseButton1Click:Connect(function()switchTab(idx)end)
+        if i==1 then currentTab = 1 end
+    end
+
+    -- 开关（直接改全局变量）
+    local function addToggle(parent, text, default, callback)
+        local value = default or l CoreGui = game:GetService("CoreGui")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local Lighting = game:GetService("Lighting")
